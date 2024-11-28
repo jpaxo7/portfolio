@@ -1,16 +1,15 @@
-import React, { useRef, useState } from 'react';
-import '../assets/styles/Contact.scss';
+import React, { useRef, useState } from "react";
+import "../assets/styles/Contact.scss";
 // import emailjs from '@emailjs/browser';
-import Box from '@mui/material/Box';
-import Button from '@mui/material/Button';
-import SendIcon from '@mui/icons-material/Send';
-import TextField from '@mui/material/TextField';
+import Box from "@mui/material/Box";
+import Button from "@mui/material/Button";
+import SendIcon from "@mui/icons-material/Send";
+import TextField from "@mui/material/TextField";
 
 function Contact() {
-
-  const [name, setName] = useState<string>('');
-  const [email, setEmail] = useState<string>('');
-  const [message, setMessage] = useState<string>('');
+  const [name, setName] = useState<string>("");
+  const [email, setEmail] = useState<string>("");
+  const [message, setMessage] = useState<string>("");
 
   const [nameError, setNameError] = useState<boolean>(false);
   const [emailError, setEmailError] = useState<boolean>(false);
@@ -21,9 +20,9 @@ function Contact() {
   const sendEmail = (e: any) => {
     e.preventDefault();
 
-    setNameError(name === '');
-    setEmailError(email === '');
-    setMessageError(message === '');
+    setNameError(name === "");
+    setEmailError(email === "");
+    setMessageError(message === "");
 
     /* Uncomment below if you want to enable the emailJS */
 
@@ -53,46 +52,53 @@ function Contact() {
     <div id="contact">
       <div className="items-container">
         <div className="contact_wrapper">
-          <h1>Contact Me</h1>
-          <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
+          <h1>Contactez moi</h1>
+          <p>
+            Projets, opppotunité d'emploi ou questions, n'hésitez pas à m'en
+            faire part !
+          </p>
           <Box
             ref={form}
             component="form"
             noValidate
             autoComplete="off"
-            className='contact-form'
+            className="contact-form"
           >
-            <div className='form-flex'>
+            <div className="form-flex">
               <TextField
                 required
                 id="outlined-required"
-                label="Your Name"
-                placeholder="What's your name?"
+                label="Nom"
+                placeholder="Quel est votre nom"
                 value={name}
                 onChange={(e) => {
                   setName(e.target.value);
                 }}
                 error={nameError}
-                helperText={nameError ? "Please enter your name" : ""}
+                helperText={nameError ? "Veuillez renseigner votre nom" : ""}
               />
               <TextField
                 required
                 id="outlined-required"
-                label="Email / Phone"
-                placeholder="How can I reach you?"
+                label="Email / Téléphone"
+                placeholder="Comment vous joindre"
                 value={email}
                 onChange={(e) => {
                   setEmail(e.target.value);
                 }}
                 error={emailError}
-                helperText={emailError ? "Please enter your email or phone number" : ""}
+                helperText={
+                  emailError
+                    ? "Veuillez renseigner votre email ou numéro de téléphone"
+                    : ""
+                }
               />
             </div>
             <TextField
               required
               id="outlined-multiline-static"
               label="Message"
-              placeholder="Send me any inquiries or questions"
+              placeholder="Envoyez moi vos requête ou questions"
               multiline
               rows={10}
               className="body-form"
@@ -101,10 +107,14 @@ function Contact() {
                 setMessage(e.target.value);
               }}
               error={messageError}
-              helperText={messageError ? "Please enter the message" : ""}
+              helperText={messageError ? "Veuillez entrer un message" : ""}
             />
-            <Button variant="contained" endIcon={<SendIcon />} onClick={sendEmail}>
-              Send
+            <Button
+              variant="contained"
+              endIcon={<SendIcon />}
+              onClick={sendEmail}
+            >
+              Envoyer
             </Button>
           </Box>
         </div>
