@@ -34,7 +34,7 @@ const Projects = () => {
           </a>
           <p>{project.description}</p>
           <div className="flex-chips">
-            <span className="chip-title">Tech stack:</span>
+            <span className="chip-title">Technologies : </span>
             {project.labels.map((label, index) => (
               <Chip key={index} className="chip" label={label} />
             ))}
