@@ -1,28 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6c636cd0.css",
-    "main.js": "/portfolio/static/js/main.4be7cd87.js",
+    "main.css": "/portfolio/static/css/main.a2792a1f.css",
+    "main.js": "/portfolio/static/js/main.2a6e8a8f.js",
     "static/js/453.59c3d396.chunk.js": "/portfolio/static/js/453.59c3d396.chunk.js",
-    "static/media/bg-dark.png": "/portfolio/static/media/bg-dark.066e4890385fe9af339e.png",
-    "static/media/bg-light.png": "/portfolio/static/media/bg-light.c4638f8ba27cd1615658.png",
-    "static/media/mock09.png": "/portfolio/static/media/mock09.e18677ccfc932e52d754.png",
-    "static/media/mock08.png": "/portfolio/static/media/mock08.13f46873fdbd382f4b76.png",
-    "static/media/mock04.png": "/portfolio/static/media/mock04.f7b5679efade992a078c.png",
-    "static/media/mock07.png": "/portfolio/static/media/mock07.3f1110f482232b33c6a2.png",
-    "static/media/mock05.png": "/portfolio/static/media/mock05.4faafa70d200d1519a34.png",
-    "static/media/mock10.png": "/portfolio/static/media/mock10.e24f121d0d746e0881d1.png",
-    "static/media/mock06.png": "/portfolio/static/media/mock06.ea816617e0d0fa0f63ca.png",
+    "static/media/bg-dark.png": "/portfolio/static/media/bg-dark.ef8492a6c371bfa7285c.png",
+    "static/media/bg-light.png": "/portfolio/static/media/bg-light.8510650621d09f78593d.png",
+    "static/media/Nina-Carducci.png": "/portfolio/static/media/Nina-Carducci.27b59202f1166279973d.png",
+    "static/media/Kasa.png": "/portfolio/static/media/Kasa.b7050a722f00ef9418bd.png",
+    "static/media/Sophie-Bluel.png": "/portfolio/static/media/Sophie-Bluel.4ae288cd52c9e4f5acda.png",
+    "static/media/MVG.png": "/portfolio/static/media/MVG.e2b24fbff672738894e2.png",
+    "static/media/Booki.png": "/portfolio/static/media/Booki.e07c252c803aee7bc9bb.png",
     "static/media/portrait.png": "/portfolio/static/media/portrait.c6b855ce67dc2af77d53.png",
-    "static/media/mock01.png": "/portfolio/static/media/mock01.61bd486a54bf6e17ee5a.png",
-    "static/media/mock02.png": "/portfolio/static/media/mock02.bced48ae9cdda3acf1a3.png",
-    "static/media/mock03.png": "/portfolio/static/media/mock03.a4600719e0b5d2a3155b.png",
     "index.html": "/portfolio/index.html",
-    "main.6c636cd0.css.map": "/portfolio/static/css/main.6c636cd0.css.map",
-    "main.4be7cd87.js.map": "/portfolio/static/js/main.4be7cd87.js.map",
+    "main.a2792a1f.css.map": "/portfolio/static/css/main.a2792a1f.css.map",
+    "main.2a6e8a8f.js.map": "/portfolio/static/js/main.2a6e8a8f.js.map",
     "453.59c3d396.chunk.js.map": "/portfolio/static/js/453.59c3d396.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c636cd0.css",
-    "static/js/main.4be7cd87.js"
+    "static/css/main.a2792a1f.css",
+    "static/js/main.2a6e8a8f.js"
   ]
 }
