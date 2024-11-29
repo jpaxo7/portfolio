@@ -3,47 +3,17 @@ import "@fortawesome/free-regular-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faReact,
-  faDocker,
+  faGithub,
+  faHtml5,
+  faCss3,
+  faSass,
+  faJs,
+  faNode,
   faPython,
+  faVuejs,
+  faPhp,
 } from "@fortawesome/free-brands-svg-icons";
-import Chip from "@mui/material/Chip";
 import "../assets/styles/Expertise.scss";
-
-const labelsFirst = [
-  "React",
-  "TypeScript",
-  "JavaScript",
-  "HTML5",
-  "CSS3",
-  "SASS",
-  "Flask",
-  "Python",
-  "SQL",
-  "PostgreSQL",
-  "Postman",
-];
-
-const labelsSecond = [
-  "Git",
-  "GitHub Actions",
-  "Docker",
-  "AWS",
-  "Azure",
-  "Linux",
-  "Snowflake",
-  "Pandas",
-  "Selenium",
-];
-
-const labelsThird = [
-  "OpenAI",
-  "Groq",
-  "LangChain",
-  "Qdrant",
-  "Hugging Face",
-  "LlamaIndex",
-  "Streamlit",
-];
 
 function Expertise() {
   return (
@@ -56,55 +26,56 @@ function Expertise() {
           le monde du développement, j'ai hate d'enrichir mes compétences et de
           relever les défis qui se présenteront à moi !
         </p>
-        <h1>Compétences</h1>
         <div className="skills-grid">
           <div className="skill">
-            <FontAwesomeIcon icon={faReact} size="3x" />
-            <h3>Full Stack Web Development</h3>
-            <p>
-              I have built a diverse array of web applications from scratch
-              using modern technologies such as React and Flask. I have a strong
-              proficiency in the SDLC process and frontend + backend
-              development.
-            </p>
-            <div className="flex-chips">
-              <span className="chip-title">Tech stack:</span>
-              {labelsFirst.map((label, index) => (
-                <Chip key={index} className="chip" label={label} />
-              ))}
+            <h1>Compétences acquises</h1>
+            <div className="svg-container">
+              <span>
+                <FontAwesomeIcon icon={faReact} size="3x" />
+                <p>React</p>
+              </span>
+              <span>
+                <FontAwesomeIcon icon={faGithub} size="3x" />
+                <p>GitHub</p>
+              </span>
+              <span>
+                <FontAwesomeIcon icon={faHtml5} size="3x" />
+                <p>HTML5</p>
+              </span>
+              <span>
+                <FontAwesomeIcon icon={faCss3} size="3x" />
+                <p>CSS3</p>
+              </span>
+              <span>
+                <FontAwesomeIcon icon={faSass} size="3x" />
+                <p>Sass</p>
+              </span>
+              <span>
+                <FontAwesomeIcon icon={faJs} size="3x" />
+                <p>JavaScript</p>
+              </span>
+              <span>
+                <FontAwesomeIcon icon={faNode} size="3x" />
+                <p>Node.js</p>
+              </span>
             </div>
           </div>
 
           <div className="skill">
-            <FontAwesomeIcon icon={faDocker} size="3x" />
-            <h3>DevOps & Automation</h3>
-            <p>
-              Once the application is built, I help clients set up DevOps
-              testing, CI/CD pipelines, and deployment automation to support the
-              successful Go-Live.
-            </p>
-            <div className="flex-chips">
-              <span className="chip-title">Tech stack:</span>
-              {labelsSecond.map((label, index) => (
-                <Chip key={index} className="chip" label={label} />
-              ))}
-            </div>
-          </div>
-
-          <div className="skill">
-            <FontAwesomeIcon icon={faPython} size="3x" />
-            <h3>GenAI & LLM</h3>
-            <p>
-              Stay relevant in the market by leveraging the latest AI models in
-              your projects. I have professional experience building enterprise
-              grade GenAI-enabled solutions to empower intelligent decision
-              making.
-            </p>
-            <div className="flex-chips">
-              <span className="chip-title">Tech stack:</span>
-              {labelsThird.map((label, index) => (
-                <Chip key={index} className="chip" label={label} />
-              ))}
+            <h1>Compétences visées</h1>
+            <div className="svg-container">
+              <span>
+                <FontAwesomeIcon icon={faPython} size="3x" />
+                <p>Python</p>
+              </span>
+              <span>
+                <FontAwesomeIcon icon={faVuejs} size="3x" />
+                <p>Vue.js</p>
+              </span>
+              <span>
+                <FontAwesomeIcon icon={faPhp} size="3x" />
+                <p>PHP</p>
+              </span>
             </div>
           </div>
         </div>

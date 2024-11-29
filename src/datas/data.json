@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "title": "Booki",
+    "description": "Intégration de l'interface du site de manière responsive avec HTML et CSS",
+    "img": "Booki",
+    "labels": ["HTML", "CSS"],
+    "ghlink": "https://github.com/jpaxo7/projet-2-Booki",
+    "websitelink": "https://sjp-booki.netlify.app/"
+  },
+  {
+    "id": 2,
+    "title": "Archiwebos",
+    "description": "Développement en Javascript du front-end du site de l'architecte Sophie Bluel",
+    "img": "SophieBluel",
+    "labels": ["HTML", "CSS", "JavaScript"],
+    "ghlink": "https://github.com/jpaxo7/projet-3-archiwebos"
+  },
+  {
+    "id": 3,
+    "title": "Nina Carducci",
+    "description": "Correction des bugs, optimisation des performances, du SEO et de l'accessibilité du site de Nina Carducci",
+    "img": "NinaCarducci",
+    "labels": ["Google Lighthouse", "HTML", "CSS", "JavaScript"],
+    "ghlink": "https://github.com/jpaxo7/projet-4-nina-carducci",
+    "websitelink": "https://sjp-nina-carducci.netlify.app"
+  },
+  {
+    "id": 4,
+    "title": "Kasa",
+    "description": "Coder le site de location d'appartements entre particuliers Kasa de zéro avec React",
+    "img": "Kasa",
+    "labels": ["HTML", "SASS", "React", "React-router"],
+    "ghlink": "https://github.com/jpaxo7/projet-5-kasa",
+    "websitelink": "https://sjp-kasa.netlify.app"
+  },
+  {
+    "id": 5,
+    "title": "Mon Vieux Grimoire",
+    "description": "Développement du back-end du site en Node.js et création de de la base de données MongoDB. Pour ce projet, j'ai eu recours au framework Express et la bibliothèque Mongoose",
+    "img": "MVG",
+    "labels": ["Node.js", "Express", "MongoDB", "Mongoose"],
+    "ghlink": "https://github.com/jpaxo7/projet-6-mvg"
+  }
+]
