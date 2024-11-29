@@ -21,10 +21,13 @@ function Expertise() {
       <div className="skills-container">
         <h1>A propos</h1>
         <p>
-          Issu d'une formation comptable, j'ai suivi la formation de développeur
-          web auprès d'Openclassrooms. Amoureux des challenges et nouveau dans
-          le monde du développement, j'ai hate d'enrichir mes compétences et de
-          relever les défis qui se présenteront à moi !
+          Salut ! Moi c'est Jean-Pierre. Issu d'un cursus comptable, j'ai
+          découvert le monde du développement au cours de mes études, et j'ai
+          rapidemment été séduit. J'ai donc décidé d'entreprendre une
+          reconversion et de suivre la formation de développeur web auprès
+          d'Openclassrooms. Amoureux des challenges et nouveau dans le monde du
+          développement, j'ai hate d'enrichir mes compétences et de relever les
+          défis qui se présenteront à moi !
         </p>
         <div className="skills-grid">
           <div className="skill">
